@@ -60,43 +60,43 @@ No machine learning is used — this project focuses purely on **data understand
 
 ##  **Project Steps (Pipeline)**
 
-### **✔ Step 1 — Load Dataset**
+### ** Step 1 — Load Dataset**
 
 * Read the CSV with correct delimiter (`;`)
 * Preview head, shape, and info
 
-### **✔ Step 2 — Data Cleaning**
+### ** Step 2 — Data Cleaning**
 
 * Check missing values
 * Check duplicate rows
 * Fix delimiter issues
 * Convert datatypes if needed
 
-### **✔ Step 3 — Univariate Analysis**
+### ** Step 3 — Univariate Analysis**
 
 * Histograms
 * Boxplots
 * Understanding distribution
 * Highlighting skewness
 
-### **✔ Step 4 — Outlier Analysis**
+### ** Step 4 — Outlier Analysis**
 
 * IQR-based outlier detection
 * Optional winsorization (capping)
 
-### **✔ Step 5 — Bivariate Analysis**
+### ** Step 5 — Bivariate Analysis**
 
 * Scatterplots
 * Variation with target variable (`quality`)
 * Boxplots grouped by quality
 
-### **✔ Step 6 — Correlation Analysis**
+### ** Step 6 — Correlation Analysis**
 
 * Correlation matrix
 * Heatmap
 * Identify key relationships (Wines with high alcohol = higher quality)
 
-### **✔ Step 7 — Feature Engineering**
+### ** Step 7 — Feature Engineering**
 
 * Create **quality_label** (low, medium, high)
 * Log-transform skewed features
